@@ -1,0 +1,26 @@
+{
+  "name": "yelly",
+  "displayName": "Yelly",
+  "description": "yet another vscode theme",
+  "version": "1.0.0",
+  "publisher": "loukhin",
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "repository": {
+    "type": "git",
+		"url": "https://github.com/LoukHin/Yelly.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Yelly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yelly-color-theme.json"
+      }
+    ]
+  }
+}
